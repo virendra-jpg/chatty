@@ -11,7 +11,6 @@ function connect() {
         .connect(dbUri, {
             // useNewUrlParser: true,
             // useUnifiedTopology: true,
-
         })
         .then(() => {
             log.info("Database connected");
